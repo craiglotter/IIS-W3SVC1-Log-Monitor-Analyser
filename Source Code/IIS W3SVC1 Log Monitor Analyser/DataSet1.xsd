@@ -1,0 +1,194 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="DataSet1" targetNamespace="http://www.tempuri.org/DataSet1.xsd" xmlns:mstns="http://www.tempuri.org/DataSet1.xsd"
+	xmlns="http://www.tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="DataSet1" msdata:IsDataSet="true" msdata:Locale="en-ZA">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="log_date">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_time">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_s_sitename">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_s_computername">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_s_ip">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_method">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_uri_stem">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_uri_query">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_s_port">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_username">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_c_ip">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_version">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_User_Agent">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_Cookie">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_Referer">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_host">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_sc_status">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_sc_substatus">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_sc_win32_status">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_sc_bytes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_cs_bytes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_time_taken">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+							<xs:element name="log_count" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="log_errors">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="log_value" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

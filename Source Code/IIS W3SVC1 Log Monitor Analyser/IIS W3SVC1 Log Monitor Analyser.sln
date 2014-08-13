@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IIS W3SVC1 Log Monitor Analyser", "IIS W3SVC1 Log Monitor Analyser.vbproj", "{356121F3-CB6F-4CC6-8F01-C5558FB4607D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{356121F3-CB6F-4CC6-8F01-C5558FB4607D}.Debug.ActiveCfg = Debug|.NET
+		{356121F3-CB6F-4CC6-8F01-C5558FB4607D}.Debug.Build.0 = Debug|.NET
+		{356121F3-CB6F-4CC6-8F01-C5558FB4607D}.Release.ActiveCfg = Release|.NET
+		{356121F3-CB6F-4CC6-8F01-C5558FB4607D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

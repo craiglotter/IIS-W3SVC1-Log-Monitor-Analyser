@@ -1,0 +1,6 @@
+#19/10/2005 02:41:23 PM - System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.nGetFullPathHelper(String path, Char[] invalidPathChars, Char[] whitespaceChars, Char directorySeparator, Char altDirectorySeparator, Char volumeSeparator, Boolean fullCheck, String& newPath)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileInfo..ctor(String fileName)
+   at IIS_W3SVC1_Log_Monitor_Analyser.Main_Screen.dataload()
